@@ -28,4 +28,69 @@ body {
     border-radius: 8px;
     background-color: #fff;
     cursor: pointer;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.1);
+}
+
+.btn-text {
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+}
+
+.arrow-down {
+    display: flex;
+    width: 21px;
+    height: 21px;
+    background-color: rgb(36, 96, 96);
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 14px;
+}
+
+.list-items {
+    position: relative;
+    margin-top: 15px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 16px;
+    list-style: none;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 0 15px;
+    border-radius: 8px;
+}
+
+.item:hover {
+    background-color: #e7edfe;
+}
+
+.item-text {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    margin-right: 12px;
+    border: 1.5px solid #c0c0c0;
+    transition: all 0.3s ease-in-out;
+}
+
+.checkbox .check-icon {
+    font-size: 11px;
+    transform: scale(0);
 }
